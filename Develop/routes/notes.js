@@ -1,6 +1,5 @@
-const router = require('express').Router();
-const path = require('path');
-
+const router = require("express").Router();
+const path = require("path");
 
 //* GET Route for notes page
 router.get("/", (req, res) =>
