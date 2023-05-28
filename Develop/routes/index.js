@@ -52,7 +52,7 @@ router.post("/api/notes", (req, res) => {
       // Save the updated notes array back to the JSON file
       fs.writeFile(
         path.join(__dirname, "..", "db", "db.json"),
-        JSON.stringify(notes),
+        JSON.stringify(notes, null, 2),
         (err) => {
           if (err) {
             console.error(err);
