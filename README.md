@@ -18,6 +18,7 @@ This project is a note taker project which utilized express.js in the backend fo
 - [API](#api)
 
 ## Link
+
 You can visit the deployed site by clicking the link below:<br>
 [Express_Note_Taker](https://expressjs-note-taking.herokuapp.com/)
 
